@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Bootstrap</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+        .media img{
+            width: 60px;
+            border: 1px solid #999;
+        }
+    </style>
 </head>
 <body>
 
@@ -1371,7 +1377,7 @@
 <br>
 <!--CARD WITH IMAGE-->
 <div style="width: 70%" class="card">
-    <img class="card-img-top" src="http://lorempixel.com/300/300/cats/" alt="Cats">
+    <img class="card-img-top" src="2.jpg" alt="Cats">
     <div class="card-body">
         <h2 class="card-title">Card title</h2>
         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat minima et ad a architecto harum corrupti adipisci, sit rem iste.</p>
@@ -1439,7 +1445,7 @@
 <!--IMAGE OVERLAYS-->
 
 <div class="card">
-    <img class="card-img" src="http://lorempixel.com/900/400/cats/" alt="Cats">
+    <img class="card-img" src="2.jpg" alt="Cats">
     <div class="card-img-overlay text-light">
         <h4>Card title</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, fugit suscipit perspiciatis labore corporis tenetur exercitationem!</p>
@@ -1485,6 +1491,8 @@
         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, explicabo.</p>
     </div>
 </div>
+
+
 
 
 <br>
@@ -1594,6 +1602,123 @@
         </blockquote>
     </div>
 </div>
+
+<!--#18 CLASS [ MEDIA_OBJECTS ]-->
+
+<h2 class="text-center display-5 my-5">#18 CLASS [ MEDIA_OBJECTS ]</h2>
+
+<!--MEDIA OBJECTS-->
+<div class="media">
+    <img class="d-flex mr-3" src="2.jpg" alt="">
+    <div class="media-body">
+        <h5>Title</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum soluta atque reiciendis quas sapiente inventore tempore quia libero distinctio autem.</p>
+    </div>
+</div>
+<!--NESTING MEDIA OBJECTS-->
+
+<div class="media">
+    <img class="d-flex mr-3" src="2.jpg" alt="">
+    <div class="media-body">
+        <h5>Lorem ipsum dolor sit amet.</h5>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil aperiam quas obcaecati alias eum sint doloribus placeat quos sapiente nam.
+        
+        <div class="media mt-4">
+            <a href="#">
+                <img class="media-body mr-3" src="2.jpg" alt="">
+            </a>
+            <div class="media-body">
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptate nulla beatae, soluta quas aut temporibus recusandae. Facilis, vero, possimus.
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<!--TOP ALIGN( DEFAULTS )-->
+<div class="media">
+    <img class="d-flex mr-3 align-self-start" src="2.jpg" alt="">
+    <div class="media-body">
+        <h5>Title</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum soluta atque reiciendis quas sapiente inventore tempore quia libero distinctio autem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam illo explicabo officiis necessitatibus illum? Iure placeat suscipit quisquam esse asperiores!</p>
+    </div>
+</div>
+<br>
+<!--CENTER ALIGN-->
+<div class="media">
+    <img class="d-flex mr-3 align-self-center" src="2.jpg" alt="">
+    <div class="media-body">
+        <h5>Title</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum soluta atque reiciendis quas sapiente inventore tempore quia libero distinctio autem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam illo explicabo officiis necessitatibus illum? Iure placeat suscipit quisquam esse asperiores!</p>
+    </div>
+</div>
+
+<br>
+
+
+<!--LEFT ALIGN-->
+<div class="media">
+    <img class="d-flex mr-3 align-self-end" src="2.jpg" alt="">
+    <div class="media-body">
+        <h5>Title</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum soluta atque reiciendis quas sapiente inventore tempore quia libero distinctio autem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam illo explicabo officiis necessitatibus illum? Iure placeat suscipit quisquam esse asperiores!</p>
+    </div>
+</div>
+
+<br>
+<!--MEDIA LIST-->
+
+<ul class="list-unstyled">
+    <li class="media mt-3">
+        <img class="d-flex mr-3" src="2.jpg" alt="">
+        <div class="media-body">
+            <h5>Lorem ipsum dolor sit amet.</h5>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem facere aliquid quaerat magni harum aperiam reiciendis velit blanditiis ab explicabo.
+        </div>
+    </li>
+     <li class="media mt-3">
+        <img class="d-flex mr-3" src="2.jpg" alt="">
+        <div class="media-body">
+            <h5>Lorem ipsum dolor sit amet.</h5>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem facere aliquid quaerat magni harum aperiam reiciendis velit blanditiis ab explicabo.
+        </div>
+    </li>
+     <li class="media mt-3">
+        <img class="d-flex mr-3" src="2.jpg" alt="">
+        <div class="media-body">
+            <h5>Lorem ipsum dolor sit amet.</h5>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem facere aliquid quaerat magni harum aperiam reiciendis velit blanditiis ab explicabo.
+        </div>
+    </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
