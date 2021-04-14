@@ -3,7 +3,26 @@
 <head>
 	<title>Bootstrap Practices</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+    <style>
+        .media img{
+            width: 60px;
+            border: 1px solid #333;
+        }
+        .row-h1{
+            background: #ddd;
+            height: 300px;
+        }
+        .item-h1{
+            border: 2px solid green;
+        }
+        .red{
+            color: #fff;
+            background-color: gray;
+            font-size: 12px;
+        }
+    </style>
 
 </head>
 <body>
@@ -888,12 +907,441 @@ hr
     </ul>
 </nav>
 
+<h1>hello</h1>
 
 
+<div class="media">
+    <img class="d-flex mr-3" src="2.jpg" alt="">
+    <div class="media-body">
+        <h5>Lorem ipsum dolor.</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam autem cumque tempora, porro hic totam voluptatem iste nihil ea soluta!</p>
+    </div>
+</div>
+
+<div class="media">
+    <img class="d-flex mr-3" src="2.jpg" alt="">
+    <div class="media-body">
+        <h5>Lorem ipsum dolor.</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam autem cumque tempora, porro hic totam voluptatem iste nihil ea soluta!</p>
+        <div class="media">
+            <img class="d-flex mr-3" src="2.jpg" alt="">
+            <div class="media-body">
+                <h5>Lorem ipsum dolor.</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic temporibus tenetur saepe totam, voluptatem dolor, illo et beatae inventore nobis.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="media">
+    <img class="d-flex mr-4 " src="2.jpg" alt="">
+    <div class="media-body">
+        <h4>Lorem ipsum dolor.</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure pariatur nisi cumque vel est dolorem placeat! Saepe sed, magni veritatis.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae qui error quaerat aut, consequuntur sunt natus perferendis est facere enim.</p>
+    </div>
+</div>
+
+<ul class="list-unstyled">
+    <li class="media">
+        <img class="d-flex mr-3" src="2.jpg" alt="">
+        <div class="media-body">
+            <h5>Lorem ipsum dolor.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem enim reprehenderit officiis exercitationem cumque in voluptas, dolorem beatae porro perferendis?</p>
+        </div>
+    </li>
+    <li class="media">
+        <img class="d-flex mr-3" src="2.jpg" alt="">
+        <div class="media-body">
+            <h5>Lorem ipsum dolor.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem enim reprehenderit officiis exercitationem cumque in voluptas, dolorem beatae porro perferendis?</p>
+        </div>
+    </li>
+    <li class="media">
+        <img class="d-flex mr-3" src="2.jpg" alt="">
+        <div class="media-body">
+            <h5>Lorem ipsum dolor.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem enim reprehenderit officiis exercitationem cumque in voluptas, dolorem beatae porro perferendis?</p>
+        </div>
+    </li>
+</ul>
+<div class="row no-gutters">
+    <div class="col-sm-6 col-md-10 col-lg-5">
+        <img src="2.jpg" alt="" style="width: 100%">
+    </div>
+    <div class="col">
+        <img src="2.jpg" alt="" style="width: 100%">
+    </div>
+    <div class="col">
+        <img src="2.jpg" alt="" style="width: 100%">
+    </div>
+    <div class="col">
+        <img src="2.jpg" alt="" style="width: 100%">
+    </div>
+
+</div>
+<br>
+<div class="row">
+    <div class="col">
+       <div class="card">
+           <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor.</h5>
+                <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eos quos vero odit iusto temporibus magni voluptate fugit maiores ex!</p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>Lorem ipsum dolor.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, deserunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>Lorem ipsum dolor.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, deserunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col col-3 offset-md-3">
+        <img src="2.jpg" alt="" style="width: 100%">
+    </div>
+
+    <div class="col col-md-3 offset-md-3">
+        <img src="2.jpg" alt="" style="width: 100%">
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col">
+        <h3>First Column.</h3>
+    </div>
+    <div class="col">
+        <h3>Second Column.</h3>
+    </div>
+    <div class="col">
+        <h3>Third Column.</h3>
+    </div>
+    <div class="col">
+        <h3>Fourth Column.</h3>
+    </div>
+</div>
+
+<div id="accordion" role="tablist">
+    <div class="card">
+        <div class="card-header" role="tab">
+            <h5>
+                <a href="#section-1" data-toggle="collapse">Section 1</a>
+            </h5>
+        </div>
+        <div class="collapse" id="section-1" data-parent="#accordion">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, perferendis aspernatur. Iusto ipsam, recusandae aspernatur totam quo repellat, iure esse, expedita officia doloribus, ea aliquid nobis quis unde ducimus inventore!
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" role="tab">
+            <h5>
+                <a href="#section-2" data-toggle="collapse">Section 2</a>
+            </h5>
+        </div>
+        <div class="collapse" id="section-2" data-parent="#accordion">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, perferendis aspernatur. Iusto ipsam, recusandae aspernatur totam quo repellat, iure esse, expedita officia doloribus, ea aliquid nobis quis unde ducimus inventore!
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" role="tab">
+            <h5>
+                <a href="#section-3" data-toggle="collapse">Section 3</a>
+            </h5>
+        </div>
+        <div class="collapse" id="section-3" data-parent="#accordion">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, perferendis aspernatur. Iusto ipsam, recusandae aspernatur totam quo repellat, iure esse, expedita officia doloribus, ea aliquid nobis quis unde ducimus inventore!
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="card">
+    <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio placeat, velit suscipit cumque quaerat sunt inventore tenetur odio ut repellat.
+    </div>
+</div>
+
+<div class="card">
+   <div class="card-header display-4">
+       Card header
+   </div>
+    <div class="card-body">
+        <h4 class="card-title">
+            Lorem ipsum dolor sit amet.
+        </h4>
+        <h5 class="card-subtitle">Lorem ipsum dolor sit.</h5>
+        <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas harum, sunt dolorem ducimus ab, vero molestiae pariatur officia eveniet itaque!
+        </p>
+        <a href="#" class="btn btn-primary">Read more</a>
+    </div>
+</div>
+
+<div class="card" style="width: 70%">
+    <img src="2.jpg"alt="" class="card-img-top">
+    <div class="card-body">
+        <h4>Lorem ipsum dolor sit.</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptatibus quis amet aspernatur, illo itaque nihil numquam dignissimos dolores at doloribus soluta consequatur minima a molestiae vitae? Consequuntur, totam, quidem.</p>
+    </div>
+</div>
 
 
+<div class="dropdown">
+  <div class="btn-group">
+       <button type="button" class="btn btn-primary">Dropdown</button>
+        <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" type="button" data-toggle="dropdown"><span class="sr-only">Dropdown split</span></button>
+           <div class="dropdown-menu">
+        <a href="#" class="dropdown-item">One</a>
+        <a href="#" class="dropdown-item">two</a>
+        <a href="#" class="dropdown-item">three</a>
+    </div>
+    </div>
+ 
+</div>
+
+<nav class="navbar bg-dark navbar-dark navbar-expand-md">
+    <div class="container">
+        <a href="#" class="navbar-brand">Brand logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar"><span class="navbar-toggler-icon"></span></button>
+        <div id="navBar" class="collapse navbar-collapse ml-auto">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">One</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">One</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">One</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">One</a>
+                </li>
+            </ul>
+            <button class="btn btn-outline-info" type="button">Button</button>
+        </div>
+        
+        
+    </div>
+</nav>
+
+<br> <br>
+
+<!-- carousel -->
+ <div id="slider1" class="carousel slide" data-ride="carousel">
+    <!-- for indicators -->
+      <ol class="carousel-indicators">
+          <li class="active" data-target="#slider1" data-slide-to="0"></li>
+          <li data-target="#slider1" data-slide-to="1"></li>
+          <li data-target="#slider1" data-slide-to="2"></li>
+      </ol>
+     <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+              <h3 class="text-primary" style="font-size: 12px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod ent, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+              <img src="2.jpg" class="float-" style="width: 100%">
+          </div>
+           
+     </div>
+    <!-- for next-prev button -->
+     <a href="#slider1" class="carousel-control-prev" data-slide="prev" style="right: 30%; position: absolute; top: 13%;">
+         <span class="carousel-control-prev-icon"></span>
+     </a>
+     <a href="#slider1" class="carousel-control-next" data-slide="next">
+         <span class="carousel-control-next-icon"></span>
+     </a>
+ </div>
+
+<br><br>
+<div class="row slider">
+    <div class="col-md-12">
+        <div class="img">
+            <img src="2.jpg" style="width: 100%">
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="img">
+            <img src="2.jpg" style="width: 100%">
+        </div>
+    </div>
+     <div class="col-md-12">
+        <div class="img">
+            <img src="2.jpg" style="width: 100%">
+        </div>
+    </div>
+     <div class="col-md-12">
+        <div class="img">
+            <img src="2.jpg" style="width: 100%">
+        </div>
+    </div>
+     <div class="col-md-12">
+        <div class="img">
+            <img src="2.jpg" style="width: 100%">
+            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing edatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et d non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+     <div class="col-md-12">
+        <div class="img">
+            <img src="2.jpg" style="width: 100%">
+        </div>
+    </div>
+
+</div>
+<br>
 
 
+<div class="d-flex row-h1 flex-column">
+    <div class="item-h1 p-3 ">Flexbox</div>
+    <div class="item-h1 p-3 mt-auto">Flexbox</div>
+    <div class="item-h1 p-3 mt-auto">Flexbox</div>
+</div>
+<br>
+<div class="row-h1 d-flex flex-nowrap">
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+    <div class="item-h1 p-3">Nowrap</div>
+</div>
+<br>
+<div class="row-h1 d-flex flex-wrap">
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+    <div class="item-h1 p-3">Wrap item</div>
+</div>
+
+
+<!-- ACCORDION -->
+<br><br>
+<div>
+    <button class="btn btn-info " data-toggle="collapse" data-target="#accordion-1">Read more</button>
+
+    <div class="card collapse mt-5" id="accordion-1">
+        <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+</div>
+
+
+<br>
+<div id="head_accordion" role="tablist">
+    <div class="card">
+        <div class="card-header" role="tab">
+            <a href="#tab-1" data-toggle="collapse">Section 1</a>
+        </div>
+        <div class="card-body collapse show" id="tab-1" data-parent="#head_accordion">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" role="tab">
+            <a href="#tab-2" data-toggle="collapse">Section 2</a>
+        </div>
+        <div class="card-body collapse" id="tab-2" data-parent="#head_accordion">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+</div>
+
+<br>
+<!-- Tooltips -->
+
+<a class="btn btn-secondary" href="#" data-toggle="tooltip" data-placement="top" data-html="true" title="<h5> Hello I'm here</h5> <p>Hello I am morshed</p>">Tooltip on top</a>
+
+<br><br>
+<a class="btn btn-info" href="#" data-html="true" data-toggle="tooltip" title="<h4 class='red'>Hello I am a HTML Element</h4>">Tooltips with HTML</a>
+<br><br>
+
+
+<button id="clickable" class="btn btn-warning" data-html="true" title="<h5>Hello I am Heading</h5>" data-toggle="tooltip" data-placement="top">Tooltip with click</button>
+<br><br>
+<button class="btn btn-dark" onclick="showToolTip();">Show tips</button>
+<br><br>
+<button class="btn btn-dark" onclick="hideToolTip();">Hide tips</button>
+<br><br>
+<button class="btn btn-dark" onclick="toggleToolTip();">Toggle tips</button>
+
+<!-- POPOVER -->
+<br><br>
+<button class="btn btn-info" data-toggle="popover" data-html="true" title="Title" data-content="<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>" data-placement="top" data-trigger="focus">Popover</button>
+
+<br><br>
+<button id="popober" class="btn btn-danger" title="<h5>This is a Title</h5>" data-content="This is a Description" data-toggle="popover" data-placement="bottom" data-html="true">Popover with js control</button>
+<br><br>
+<button class="btn btn-dark" onclick="showPopover();">Popover show</button>
+<button class="btn btn-dark" onclick="hidePopover();">Popover hide</button>
+<button class="btn btn-dark" onclick="togglePopover();">Popover toggle</button>
 
 
 
@@ -905,7 +1353,75 @@ hr
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
 
+<script type="text/javascript">
+
+$('[data-toggle="tooltip"]').tooltip();
+
+function showToolTip(){
+    $('#clickable').tooltip('show');
+}
+function hideToolTip(){
+    $("#clickable").tooltip('hide');
+}
+function toggleToolTip(){
+    $('#clickable').tooltip('toggle');
+}
+
+
+// Popover
+
+$('[data-toggle="popover"]').popover();
+
+function showPopover(){
+    $('#popober').popover('show');
+}
+function hidePopover(){
+    $('#popober').popover('hide');
+}
+function togglePopover(){
+    $('#popober').popover('toggle');
+}
+
+
+
+$('.slider').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
 
 </body>
 </html>
